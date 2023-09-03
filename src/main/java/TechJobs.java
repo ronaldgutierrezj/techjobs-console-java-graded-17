@@ -126,7 +126,7 @@ public class TechJobs {
 
 //        System.out.println("printJobs is not implemented yet");
        if (someJobs.isEmpty()){
-           System.out.println("No Results");
+           System.out.print("No Results");
        } else {
            for( int i = 0; i < someJobs.size(); i++){
                System.out.println("\n" + "*****");

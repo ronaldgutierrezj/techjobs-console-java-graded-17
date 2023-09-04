@@ -131,8 +131,8 @@ public class TechJobs {
            for( int i = 0; i < someJobs.size(); i++){
                System.out.println("\n" + "*****");
 
-               for (Map.Entry<String, String> job : someJobs.get(i).entrySet()){
-                   System.out.println(job.getKey() + ": " + job.getValue());
+               for (Map.Entry<String, String> jobEntrySet : someJobs.get(i).entrySet()){
+                   System.out.println(jobEntrySet.getKey() + ": " + jobEntrySet.getValue());
                }
                    System.out.println("*****");
            }
